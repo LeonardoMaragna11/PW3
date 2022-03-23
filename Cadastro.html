@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form>
+            <div>
+                <label for="txtProcessador">Processador</label>
+                <input type="text" name="txtProcessador" required
+                id="txtProcessador" placeholder="Processador" 
+                max="10" min="0"
+                />
+            </div>
+
+            <div>
+                <label for="txtUSB">USB</label>
+                <input type="number" name="txtUSB" required
+                    id="txtUSB" placeholder="USB" />
+            </div>
+
+            <div>
+                <label for="chkAtualizado">Atualizado</label>
+                <input type="checkbox" name="chkAtualizado"
+                    id="chkAtualizado" placeholder="Atualizado" />
+            </div>
+
+            <div>
+                <label for="txtDataAtualizacao">Data Atualização</label>
+                <input type="datetime" name="txtDataAtualizacao"
+                    id="txtDataAtualizacao" placeholder="Data Atualização" 
+                    
+                />
+            </div>
+            <div>
+                <input type="submit" value="Cadastrar">
+            </div>
+            
+    </form>
+</body>
+<script src="cadastroComputador.js"></script>
+</html>
